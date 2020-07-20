@@ -1,0 +1,11 @@
+products = []
+while True:
+	name = input('please enter a product name: ')
+	if name == 'q':
+		break
+	price = input('please enter a price for the product: ')
+	products.append([name, price])
+print(products)
+
+
+products[0][0]
